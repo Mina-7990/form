@@ -41,6 +41,11 @@ app.get('/api/users', async (req, res) => {
   }
 });
 
+app.get('/api/gethi', (req, res) => {
+  res.status(200).json({ message: 'Hello from the server!' });
+}
+);
+
 app.listen(5653, () => {
   console.log('Server is running on port 5653');
 });
