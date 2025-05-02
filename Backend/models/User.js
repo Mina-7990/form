@@ -29,7 +29,7 @@ const userSchema = new mongoose.Schema({
     maxlength: 100,
     required: true
   },
-  abElE3traf: {  // ✅ Match frontend field
+  abElE3traf: {
     type: String,
     trim: true,
     minlength: 2,
